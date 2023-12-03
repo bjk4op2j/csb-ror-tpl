@@ -1,8 +1,6 @@
 {
     "name": "Dev Container tutorial",
-    "features": {},
-    "build": {
-        "context": ".",
-        "dockerfile": "Dockerfile"
-    }
+    "service": "workspace",
+    "dockerComposeFile": "docker-compose.yml",
+    "workspaceFolder": "/workspace"
 }
