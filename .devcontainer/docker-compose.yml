@@ -7,4 +7,4 @@ services:
             - ..:/workspace:cached
         command: sleep infinity
     sqlite3:
-        image: esolang/sqlite3
+        image: esolang/sqlite3:latest
